@@ -1,0 +1,1 @@
+Avani met his crush on 27 March 2023, when she described her experience of meeting a guy she was interested in.

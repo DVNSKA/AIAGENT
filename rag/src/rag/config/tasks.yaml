@@ -1,0 +1,16 @@
+ingestion_task:
+  description: >
+    Go through all PDFs inside the "resources" folder and create a Chroma vector database
+    that stores text embeddings of the documents for later retrieval.
+  expected_output: >
+    A message confirming the number of documents and chunks processed and saved successfully.
+  agent: ingestion_agent
+
+retrieval_task:
+  description: >
+    Use the "get_similar_context" tool to retrieve the most relevant pieces of text from
+    the Chroma vector database for a given user question.
+    Then, analyze the context and provide a clear, concise, and accurate answer to the user.
+  expected_output: >
+    A natural-language answer to the user's question, grounded strictly in the retrieved context.
+  agent: retrieval_agent

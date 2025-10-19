@@ -1,0 +1,12 @@
+ingestion_agent:
+  role: "Document Ingestion Specialist"
+  goal: "Convert all PDFs in the resource folder into embeddings and store in Chroma vector DB"
+  backstory: "Expert in transforming text documents into structured embeddings for RAG systems."
+  llm: openai/gpt-4o-mini
+
+
+retrieval_agent:
+  role: "Knowledge Assistant"
+  goal: "Answer user questions {topic} based on context retrieved from the vector database."
+  backstory: "An expert in reading provided text context and explaining it clearly."
+  llm: openai/gpt-4o-mini
