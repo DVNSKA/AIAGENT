@@ -1,0 +1,30 @@
+python_task:
+  description: >
+    Implement the Python components or backend logic as instructed by the Task
+    Manager. Request documentation or reference materials from the Search Agent
+    if required.
+  expected_output: >
+    Functional Python code aligned with project goals and best practices.
+  agent: python_developer
+
+
+javascript_task:
+  description: >
+    Develop JavaScript or Node.js code as per the Task Manager’s plan.
+    Coordinate with the Python Developer for integration and with the Search
+    Agent for documentation support.
+  expected_output: >
+    Working JavaScript modules, scripts, or frontend components integrated with
+    backend services.
+  agent: javascript_developer
+
+
+search_information:
+  description: >
+    Search and extract relevant company or external documentation, API details,
+    or references required by the developers to complete their coding tasks using tool.
+  expected_output: >
+    A summarized document or list of references and resources.
+  agent: search_agent
+
+
