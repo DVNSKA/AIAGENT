@@ -1,3 +1,6 @@
+this is mcp json you have to add once you cloned the repo
+
+
 {
   "servers": {
     "abhi1": {
@@ -11,3 +14,12 @@
   },
   "inputs": []
 }
+
+and dont forget to add .env
+APPPASSWORD=
+USER_EMAIL=abhirampabbisetty4@gmail.com
+OPENAI_API_KEY=
+GOOGLE_API_KEY=
+USER_NAME=
+LEAVE_URL=
+USER_PASSWORD=
