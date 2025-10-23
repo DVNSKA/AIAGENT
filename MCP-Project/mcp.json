@@ -1,0 +1,10 @@
+{
+  "name": "CompanyMCP",
+  "version": "1.0.0",
+  "servers": [
+    {
+      "transport": "stdio",
+      "command": ["uv", "run", "mcp_project.server"]
+    }
+  ]
+}

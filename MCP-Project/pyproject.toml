@@ -1,26 +1,21 @@
 [project]
-name = "finalai"
+name = "mcp-project"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "ffmpeg>=1.4",
+    "dotenv>=0.9.9",
+    "ffmpeg-python>=0.2.0",
     "ipython>=9.6.0",
     "langchain>=1.0.2",
-    "langchain-openai>=1.0.1",
     "langgraph>=1.0.1",
-    "moviepy>=2.2.1",
-    "numpy>=2.3.4",
+    "mcp>=1.18.0",
+    "mcp-agent>=0.2.1",
     "openai>=2.6.0",
-    "openai-whisper>=20250625",
+    "openai-agents>=0.4.1",
     "playwright>=1.55.0",
     "pydantic>=2.12.3",
-    "python-dotenv>=1.1.1",
-    "tqdm>=4.67.1",
-]
-
-[tool.uv.workspace]
-members = [
-    "MCP",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
 ]
